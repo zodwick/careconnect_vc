@@ -2,38 +2,38 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="steth.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebRTC Demo</title>
+    <title>Care Connect</title>
   </head>
   <body>
-    <h2>1. Start your Webcam</h2>
+    <h2>Meet your doctor</h2>
     <div class="videos">
       <span>
-        <h3>Local Stream</h3>
+        <h3>You</h3>
         <video id="webcamVideo" autoplay playsinline></video>
       </span>
       <span>
-        <h3>Remote Stream</h3>
+        <h3>Doctor</h3>
         <video id="remoteVideo" autoplay playsinline></video>
       </span>
 
 
     </div>
 
-    <button id="webcamButton">Start webcam</button>
-    <h2>2. Create a new Call</h2>
-    <button id="callButton" disabled>Create Call (offer)</button>
+    <button id="webcamButton" class="button">Start webcam</button>
+    <h2> Create a new Call</h2>
+    <button id="callButton" disabled class="button">Create Call (offer)</button>
 
-    <h2>3. Join a Call</h2>
-    <p>Answer the call from a different browser window or device</p>
+    <h2>Join a Call</h2>
+    <p>Answer the call via the id</p>
     
-    <input id="callInput" />
-    <button id="answerButton" disabled>Answer</button>
+    <input id="callInput" class="inputfield"/>
+    <button id="answerButton" disabled class="button">Answer</button>
 
-    <h2>4. Hangup</h2>
+    <h2></h2>
 
-    <button id="hangupButton" disabled>Hangup</button>
+    <button id="hangupButton" disabled class="hangup">Hangup</button>
 
     <script type="module" src="/main.js"></script>
 
