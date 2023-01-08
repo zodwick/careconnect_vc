@@ -44,12 +44,12 @@ h1{
   font-weight: 530;
   line-height: 20px;
   vertical-align: middle;
-  border: 1px solid;
-  border-radius: 6px;
-  color: #1b3f67;
-  background-color: #fafbfc;
-  border-color: #d4e2f026;
-  box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
+  border: 0px solid;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #58ade2;
+  border-color: #82c9f4;
+  /* box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset; */
   transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   transition-property: color, background-color, border-color;
   
@@ -57,7 +57,7 @@ h1{
 
 .button:hover {
   color: #ffffff;
-  background-color: #3571b5;
+  background-color: #38a1e3;
   border-color: #1b1f2326;
   box-shadow: rgba(27, 31, 35, 0.1) 0px 1px 0px 0px, rgba(255, 255, 255, 0.03) 0px 1px 0px 0px inset;
   transition-duration: 0.1s;
@@ -74,11 +74,11 @@ h1{
   font-weight: 530;
   line-height: 20px;
   vertical-align: middle;
-  border: 1px solid;
+  border: 0px solid;
   border-radius: 6px;
-  color: #1b3f67;
-  background-color: #fafbfc;
-  border-color: #d4e2f026;
+  color: white;
+  background-color: #f53232;
+  border-color: white;
   box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
   transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   transition-property: color, background-color, border-color;
@@ -94,19 +94,44 @@ h1{
 .inputfield{
   
   display: inline-block;
-  outline: 0;
-  
+  outline: 1px black;  
   padding: 5px 16px;
   font-size: 14px;
   font-weight: 530;
   line-height: 20px;
   vertical-align: middle;
-  border: 1px solid;
+  border: 0.8px solid rgb(147, 207, 230) ;
   border-radius: 6px;
   color: #1b3f67;
   background-color: #fafbfc;
-  border-color: #d4e2f026;
   box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset;
   transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
   transition-property: color, background-color, border-color;
+}
+
+.buttonstart{
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  padding: 5px 16px;
+  font-size: 14px;
+  font-weight: 530;
+  line-height: 20px;
+  vertical-align: middle;
+  border: 5px solid;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(67, 197, 67);
+  border-color: rgb(67, 197, 67);;
+  /* box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px 0px inset; */
+  transition: 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  transition-property: color, background-color, border-color;
+  
+}
+
+.buttonstart:hover{
+  color: #ffffff;
+  background-color: rgb(41, 161, 41);
+  border-color: rgb(41, 161,41);;
+  transition-duration: 0.1s;
 }
